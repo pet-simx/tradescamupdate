@@ -1,0 +1,100 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local X = Material.Load({
+	Title = "Kiroft | Pet Simulator X Trade Scam",
+	Style = 3,
+	SizeX = 350,
+	SizeY = 250,
+	Theme = "Dark",
+	ColorOverrides = {
+		MainFrame = Color3.fromRGB(235,235,235)
+	}
+})
+
+local Y = X.New({
+	Title = "1"
+})
+
+local A = Y.Button({
+	Text = "TRADE SCAM ON",
+	Callback = function()
+		print("hello")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
+
+local B = Y.Button({
+	Text = "TRADE SCAM OFF",
+	Callback = function()
+		print("hello")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
+
+local C = Y.Button({
+	Text = "DUPE PET (STILL IN DEV)",
+	Callback = function()
+		print("hello")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
+
+local D = Y.Button({
+	Text = "STEAL PET IN TRADE",
+	Callback = function()
+		print("hello")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
+
+local E = Y.Button({
+	Text = "FREE UNLOCK ALL HOVERBOARD",
+	Callback = function()
+		print("hello")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+})
+
+local F = Y.Button({
+	Text = "PET CHANGER GUI KIROFT",
+	Callback = function()
+		print("hello")
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = ""
+			})
+		end
+	}
+}
